@@ -16,7 +16,7 @@
     <meta name="theme-color" content="#ffffff">
     <meta property="og:title" content="Melton's 4th Birthday">
     <meta property="og:description" content="You are invited!">
-    <meta property="og:image" content="img/melton.png">
+    <meta property="og:image" content="img/melton_new.png">
     <meta property="og:type" content="website">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -227,7 +227,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="guest2" class=""
                                                                  placeholder="Guest 2"
-                                                                 required>
+                                                                 >
                             </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="guest3" class=""
                                                                  placeholder="Guest 3"
-                                                                 required>
+                                                                 >
                             </div>
                         </div>
                     </div>
@@ -245,7 +245,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-user"></i><input name="guest4" class=""
                                                                  placeholder="Guest 4"
-                                                                 required>
+                                                                 >
                             </div>
                         </div>
                     </div>
@@ -255,7 +255,7 @@
                                 <i class="fa fa-users"></i><input type="number" name="kids" class="" min="0"
                                                                   max="4"
                                                                   placeholder="Number of Kids"
-                                                                  required>
+                                                                  >
                             </div>
                         </div>
 <!--                         <div class="col-md-6 col-sm-6">
@@ -295,6 +295,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script> window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}</script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
@@ -305,20 +308,7 @@
 <!-- <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDE9YsYval6KxkRtB-SPj72kYIdvRTR6YA&callback=initMap"></script> -->
 <!-- Google Analytics -->
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-46465113-4', 'auto');
-    ga('send', 'pageview');
-</script>
+
+
 </body>
 </html>
