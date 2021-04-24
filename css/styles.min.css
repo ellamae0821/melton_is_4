@@ -85,7 +85,7 @@ header{
 	#sliding-background {
 		height: 280px;
   		width: 7800px;
-  		margin-top: 250px;
+  		margin-top: 185px;
 	}
   	#logo-mel {
 	    height: 110px;
@@ -114,7 +114,7 @@ header{
 	#sliding-background {
 		height: 300px;
   		width: 7800px;
-  		margin-top: 250px;
+  		margin-top: 210px;
 	}
   
 	header{
@@ -148,7 +148,7 @@ header{
 	#sliding-background {
 		height: 300px;
   		width: 7800px;
-  		margin-top: 180px;
+  		margin-top: 160px;
 	}
 
 	
@@ -176,9 +176,9 @@ header{
 @media (min-width: 321px) and (max-width: 480px) {
   
 	#sliding-background {
-		height: 300px;
+		height: 400px;
   		width: 7800px;
-  		margin-top: 250px;
+  		margin-top: 150px;
 	}
 
 	
@@ -201,7 +201,7 @@ header{
 	#sliding-background {
 		height: 100px;
   		width: 7800px;
-  		margin-top: 150px;
+  		margin-top: 120px;
 	}
 
 	
