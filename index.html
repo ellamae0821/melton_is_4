@@ -132,7 +132,6 @@
 </section>
 
 
-
 <section class="rsvp text-center" id="rsvp">
 
     <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
@@ -151,28 +150,54 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <h3>What are you waiting for?</h3>
-                <p>Please RSVP before 1st of May 2021</p>
-                <form id="rsvp-form" class="rsvp-form" data-email="ellamae207@gmail.com"
-                      action="https://script.google.com/macros/s/AKfycbwaButBmnR5zpfnPUTIGS7eVKojjxZ0X4AbocaQNTUdWRhBWhKodc0r7_bdkWS2BqoPGw/exec"
-                      method="POST">
+   
 
-                    <div class="row">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>What are you waiting for?</h3>
+                    <p>Please RSVP before 1st of May 2021</p>
+                    <form id="rsvp-form" class="rsvp-form" data-email="ellamae207@gmail.com"
+                          action="https://script.google.com/macros/s/AKfycbwaButBmnR5zpfnPUTIGS7eVKojjxZ0X4AbocaQNTUdWRhBWhKodc0r7_bdkWS2BqoPGw/exec"
+                          method="POST">
+                        <div id="code1" style="display: none">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-input-group">
+                                        <i class="fa fa-user"></i><input name="guest1" class=""
+                                                                         placeholder="Your name"
+                                                                         >
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="form-input-group">
+                                        <i class="fa fa-envelope"></i><input type="email" name="email1" class="" 
+                                                                          placeholder="Your e-mail (optional)"
+                                                                          >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div id="code4" style="display: none">
+                            <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="guest1" class=""
+                                <i class="fa fa-user"></i><input name="guest4-1" class=""
                                                                  placeholder="Your name"
-                                                                 required>
+                                                                 >
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="guest2" class=""
+                                <i class="fa fa-user"></i><input name="guest4-2" class=""
                                                                  placeholder="Guest 2 (optional)"
                                                                  >
                             </div>
@@ -181,7 +206,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="guest3" class=""
+                                <i class="fa fa-user"></i><input name="guest4-3" class=""
                                                                  placeholder="Guest 3 (optional)"
                                                                  >
                             </div>
@@ -190,7 +215,7 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="guest4" class=""
+                                <i class="fa fa-user"></i><input name="guest4-4" class=""
                                                                  placeholder="Guest 4 (optional)"
                                                                  >
                             </div>
@@ -199,8 +224,51 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="kids" class="" min="0"
+                                <i class="fa fa-users"></i><input type="number" name="kids4" class="" min="0"
                                                                   max="4"
+                                                                  placeholder="Number of Kids"
+                                                                  >
+                            </div>
+                        </div>
+
+                        </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email4" class="" 
+                                                                  placeholder="Your e-mail (optional)"
+                                                                  >
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+
+
+                    <div id="code2" style="display: none">
+                                            <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="guest2-1" class=""
+                                                                 placeholder="Your name"
+                                                                 >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="guest2-2" class=""
+                                                                 placeholder="Guest 2 (optional)"
+                                                                 >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input type="number" name="kids2" class="" min="0"
+                                                                  max="2"
                                                                   placeholder="Number of Kids"
                                                                   >
                             </div>
@@ -210,13 +278,75 @@
                     <div class="row">
                         <div class="col-md-12 col-sm-12">
                             <div class="form-input-group">
-                                <i class="fa fa-envelope"></i><input type="email" name="email" class="" 
+                                <i class="fa fa-envelope"></i><input type="email" name="email2" class="" 
+                                                                  placeholder="Your e-mail (optional)"
+                                                                  >
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="row" id="code3" style="display: none">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="guest3-1" class=""
+                                                                 placeholder="Your name"
+                                                                 >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="guest3-2" class=""
+                                                                 placeholder="Guest 2 (optional)"
+                                                                 >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="guest3-3" class=""
+                                                                 placeholder="Guest 3 (optional)"
+                                                                 >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input type="number" name="kids3" class="" min="0"
+                                                                  max="3"
+                                                                  placeholder="Number of Kids"
+                                                                  >
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="email" name="email3" class="" 
                                                                   placeholder="Your e-mail (optional)"
                                                                   >
                             </div>
                         </div>
 
                     </div>
+                </div>
+
+
+
+
+
+
+
+
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
@@ -228,6 +358,11 @@
         </div>
     </div>
 </section>
+
+
+
+
+
 
 
 
@@ -246,7 +381,29 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 <script> window.onbeforeunload = function () {
   window.scrollTo(0, 0);
-}</script>
+}
+
+
+</script>
+<script>    
+    if (window.location.search.indexOf('code=1') > -1) {
+        var codenumber1 = document.getElementById('code1');
+        codenumber1.style.display = 'block';
+    } 
+    if (window.location.search.indexOf('code=2') > -1) {
+        var codenumber2 = document.getElementById('code2');
+        codenumber2.style.display = 'block';
+    }
+
+    if (window.location.search.indexOf('code=3') > -1) {
+        var codenumber3 = document.getElementById('code3');
+        codenumber3.style.display = 'block';
+    }
+    if (window.location.search.indexOf('code=4') > -1) {
+        var codenumber4 = document.getElementById('code4');
+        codenumber4.style.display = 'block';
+    };
+</script>
 <script src="js/jquery.fancybox.pack.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
